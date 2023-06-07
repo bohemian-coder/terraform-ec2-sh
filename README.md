@@ -4,7 +4,7 @@ A sample template to set up an EC2 instance on AWS, and run a shell script remot
 
 Create keys on your local machine:
 
-1. run ```ssh-keygen``` in project directory
+1. run ```ssh-keygen``` in project directory >> filename : terrakey
 
 This template creates an Amazon Linux system; user is **ec2-user**
 
