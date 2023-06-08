@@ -1,6 +1,15 @@
 # Terraform-EC2-SH - Sample Template
 
-A sample template to set up an EC2 instance on AWS, and run a shell script remotely.
+A sample template to set up a VPC on AWS. Components are;
+- VPC
+- Public /Private Subnets
+- Internet Gateway
+- Route Table (Public)
+- Security Groups
+- EC2 Instance (Loads up a simple html template)
+- S3 bucket to save infrastructure state
+- Additional EBS volume
+- Multiple AZ arch
 
 Create keys on your local machine:
 
